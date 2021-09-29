@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=C.A.R.E
+qgisMinimumVersion=2.0
+description=Crime analysis using radial effectiveness
+version=1
+author=Afshin Salehi
+email=Salehi@consultant.com
+
+about=This plugin developed as a fine solution to determine crimes and environment hidden relations. Although in case of success it will develop to a standalone CIS software with many more abilities like showing objects on the canvas, direct user interaction, etc... The algorithm of this plugin designed as the key point which proceeds to a fully functional crime predictor which haven't yet created worldwide. it's true that some softwares like Esri's crime analyst or grassGIS have some solutions but having a flawlessly practical tool on the other hand is the true advantage. Also, it will provoke a new theory in statistical correlations as it can find out the hidden relations between human psychic decisions and the environment.
+
+tracker=github.com\ashlabs
+repository=Personal
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, spatialite, crime, patterning, correlation
+
+homepage=
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

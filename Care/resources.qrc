@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/plugins/Care">
+    <file>CARE_LOGO.png</file>
+    <file>icon.png</file>
+    <file>Crime_Analyst_lowRes.png</file>
+  </qresource>
+</RCC>
